@@ -91,3 +91,10 @@ form div .submit{
 .instructions p{
     margin-bottom: 10px;
 }
+@media (max-width: 940px) {
+    .header{
+        height: 100px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
