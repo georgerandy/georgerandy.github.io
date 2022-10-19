@@ -117,8 +117,12 @@ nav .menu-btn i{
     nav .menu-btn i{
         display: block;
     }
+    .lore{
+        width: 80%;
+   
+    }
     .lore p{
-        font-size: 20px;
+        font-size: 25px;
         
     }
 }
