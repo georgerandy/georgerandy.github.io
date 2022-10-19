@@ -87,6 +87,26 @@ nav .menu-btn i{
     font-size: 40px;
     font-weight: 600;
 }
+.links ul {
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.links ul li{
+    margin: 10px;
+}
+.links ul li a{
+    background-color: red;
+    color: gold;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 10px;
+    
+}
 @media (max-width: 940px) {
     nav{
         position: fixed;
