@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    text-align: center;
+    background-color: #5c4;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    border-bottom: 1px solid black;
+}
+.form-des{
+    height: 30vh;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-des h3{
+    margin-bottom: 30px;
+}
+.form-des p{
+    width: 50%;
+    margin: 0 auto;
+}
+
+form div input{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 100%;
+    width: 50%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+form div textarea{
+    width: 50%;
+    height: 100px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 20px;
+}
+form div textarea:placeholder{
+    color: red;
+    font-family: sans-serif;
+}
+form div .submit{
+    background-color: red;
+    width: 10%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.instructions{
+    height: 20vh;
+    border: 1px solid black;
+}
+.instructions p{
+    margin-bottom: 10px;
+}
