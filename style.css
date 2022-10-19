@@ -91,8 +91,8 @@ nav .menu-btn i{
     #click:checked ~  .menu-btn i:before{
         content: "\f00d";
     }
-    nav .logo{
-        width: 75%;
+    nav .logo img{
+        width: 100%;
     }
     nav ul{
         position: fixed;
@@ -116,5 +116,9 @@ nav .menu-btn i{
     }
     nav .menu-btn i{
         display: block;
+    }
+    .lore p{
+        font-size: 20px;
+        
     }
 }
