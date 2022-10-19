@@ -88,6 +88,10 @@ nav .menu-btn i{
     font-weight: 600;
 }
 @media (max-width: 940px) {
+    nav{
+        position: fixed;
+        background: #021d03;
+    }
     #click:checked ~  .menu-btn i:before{
         content: "\f00d";
     }
