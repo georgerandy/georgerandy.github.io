@@ -109,8 +109,8 @@ nav .menu-btn i{
 }
 @media (max-width: 940px) {
     nav{
-        position: fixed;
-        background: #021d03;
+        position: sticky;
+        
     }
     #click:checked ~  .menu-btn i:before{
         content: "\f00d";
