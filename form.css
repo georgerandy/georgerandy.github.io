@@ -74,7 +74,7 @@ form div textarea:placeholder{
     font-family: sans-serif;
 }
 form div .submit{
-    background-color: red;
+    background-color: #153122;
     font-size: 25px;
     font-weight: 600;
     width: 10%;
@@ -102,5 +102,11 @@ form div .submit{
     }
     .form-des p{
         width: 80%;
+    }
+    form div input{
+        width: 80%;
+    }
+    form div .submit{
+        width: 50%;
     }
 }
