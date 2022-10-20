@@ -9,7 +9,10 @@
 
 }
 body{
-    background-color: #379067;
+    background-image: url("/images/neww.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #021d03;
 }
 
@@ -58,10 +61,22 @@ nav .menu-btn i{
 #click{
     display: none;
 }
+.pics{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    border: 1px solid black;
+    height: 200px;
+    width: 500px;
+}
+.pics img{
+    width: 100%;
+height: min-content;
+}
 
 .section-one{
     text-align: center;
-    height: 30vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
