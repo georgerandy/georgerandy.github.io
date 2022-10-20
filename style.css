@@ -123,9 +123,16 @@ nav .menu-btn i{
     border-radius: 10px;
     
 }
-video{
-max-width: 100%;
-height: auto;
+.video {
+    width:100%;
+     max-width:1200px; 
+     margin:auto;
+      display:block; 
+      position: relative;
+    }
+video {
+    width:100%; 
+    height:500px 
 }
 @media (max-width: 940px) {
     nav{
