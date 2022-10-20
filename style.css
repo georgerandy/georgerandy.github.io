@@ -126,7 +126,7 @@ nav .menu-btn i{
 video{
 max-width: 100%;
 height: auto;
-margin: 0 autogit ;
+margin: 0 auto;
 }
 @media (max-width: 940px) {
     nav{
