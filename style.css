@@ -9,11 +9,12 @@
 
 }
 body{
-    background-image: url("/images/neww.jpg");
+     background-image: url("/images/neww.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
     color: #021d03;
+    /* background-color: #379067; */
 }
 
 nav{
@@ -61,14 +62,10 @@ nav .menu-btn i{
 #click{
     display: none;
 }
-/* .pics{
+.okay{
     display: flex;
-    align-items: center; 
-    justify-content: center;
-    border: 1px solid black;
-    height: 200px;
-    width: 500px;
-} */
+}
+
 .pics img{
     max-width: 100%;
     height: auto;
@@ -167,6 +164,10 @@ nav .menu-btn i{
     }
     nav .menu-btn i{
         display: block;
+    }
+    .okay{
+        display: flex;
+        flex-direction: column;
     }
     .lore{
         width: 80%;
