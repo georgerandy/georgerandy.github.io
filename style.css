@@ -70,8 +70,9 @@ nav .menu-btn i{
     width: 500px;
 }
 .pics img{
-    width: 100%;
-height: min-content;
+    max-width: 100%;
+    height: auto;
+
 }
 
 .section-one{
