@@ -9,12 +9,9 @@
 
 }
 body{
-     background-image: url("/images/neww.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
+
     color: #021d03;
-    /* background-color: #379067; */
+     background-color: #ECE8B8; 
 }
 
 nav{
