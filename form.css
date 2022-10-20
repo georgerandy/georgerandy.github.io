@@ -9,8 +9,12 @@
 body{
     height: 100vh;
     text-align: center;
-    background-color: #379067;
+    /* background-color: #379067; */
     color: #021d03;
+    background-image: url("/images/neww.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 .header{
     display: flex;
