@@ -11,11 +11,10 @@ body{
      background-color: #ECE8B8; 
 }
 .lore{
-    width: 70%;
+    
     text-align: center;
     margin: auto;
     
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
