@@ -94,6 +94,7 @@ nav .menu-btn i{
     width: 70%;
     text-align: center;
     margin: auto;
+    
     height: 100vh;
     display: flex;
     align-items: center;
@@ -103,6 +104,7 @@ nav .menu-btn i{
 .lore h3{
     font-size: 50px;
     color: red;
+    margin-top: 20px;
 }
 .lore p{
     font-size: 40px;
