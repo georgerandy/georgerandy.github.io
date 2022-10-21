@@ -140,10 +140,10 @@ video {
     height:500px 
 }
 @media (max-width: 940px) {
-    nav{
+    /* nav{
         position: sticky;
         
-    }
+    } */
     #click:checked ~  .menu-btn i:before{
         content: "\f00d";
         
@@ -157,7 +157,7 @@ video {
         align-items: left;
         position: absolute;
         left: -10%;
-        top: 19%;
+        top: 1%;
     }
     nav ul{
         position: fixed;
