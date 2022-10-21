@@ -94,9 +94,14 @@ nav .menu-btn i{
     width: 70%;
     text-align: center;
     margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .lore h3{
-    font-size: 20px;
+    font-size: 50px;
     color: red;
 }
 .lore p{
@@ -128,7 +133,7 @@ nav .menu-btn i{
      max-width:1200px; 
      margin:auto;
       display:block; 
-      position: relative;
+      /* position: relative; */
     }
 video {
     width:100%; 
