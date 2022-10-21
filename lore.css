@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Shalimar" ;
+}
+
+body{
+    text-align: center;
+     background-color: #ECE8B8; 
+}
+.lore{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.lore h3{
+    font-size: 50px;
+    color: red;
+    margin-top: 20px;
+}
+.lore p{
+    font-size: 40px;
+    font-weight: 600;
+}
