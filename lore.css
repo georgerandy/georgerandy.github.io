@@ -80,6 +80,7 @@ nav .menu-btn i{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: -1;
 }
 .center img{
     opacity: 0.2;
