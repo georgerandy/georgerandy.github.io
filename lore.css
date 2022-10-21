@@ -56,7 +56,26 @@ nav .menu-btn i{
 #click{
     display: none;
 }
-@media (max-width: 940px)
+.lore{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.lore h3{
+    font-size: 50px;
+    color: red;
+    margin-top: 20px;
+}
+.lore p{
+    font-size: 40px;
+    font-weight: 600;
+}
+@media (max-width: 940px) {
 #click:checked ~  .menu-btn i:before{
     content: "\f00d";
     
@@ -94,4 +113,12 @@ nav ul li a{
 }
 nav .menu-btn i{
     display: block;
+}
+.lore{
+    width: 80%;
+
+}
+.lore p{
+    font-size: 25px; 
+}
 }
