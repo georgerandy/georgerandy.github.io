@@ -110,6 +110,15 @@ form div .submit{
 .instructions p{
     margin-bottom: 10px;
 }
+.center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center img{
+    opacity: 0.2;
+}
 @media (max-width: 940px) {
     .header{
         height: 100px;

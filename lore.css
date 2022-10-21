@@ -60,7 +60,7 @@ nav .menu-btn i{
     width: 70%;
     text-align: center;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,6 +74,15 @@ nav .menu-btn i{
 .lore p{
     font-size: 40px;
     font-weight: 600;
+}
+.center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center img{
+    opacity: 0.2;
 }
 @media (max-width: 940px) {
 #click:checked ~  .menu-btn i:before{
