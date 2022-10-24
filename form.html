@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amphoraz warrior form</title>
-    <link rel="stylesheet" href="form.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <script src="form.js" defer></script>
+    <title>Registraion Form</title>
+  </head>
+  <body>
 
     <nav>
         <div class="logo">
@@ -27,55 +27,94 @@
         </ul>
 
     </nav>
+
     <audio controls autoplay loop>
         <source src="/music/trobul.mp3" type="audio/ogg">
-       
       </audio>
-    <div class="header">
-        <h1>Amphoraz warrior form</h1>
-    </div>
+    <form action="#" class="form">
+      <h1 class="text-center">Amphoras Warrior Form</h1>
+      <h4>Apply for TrobulTurtlez Whitelist</h4>
+      <p>We would hand-select the applicants that fulfil all criterias and give them access to mint the TrobulTurtlez nft collection. Follow @TrobulTurtlez to see all accepted applicants</p>
+      <!-- Progress bar -->
+      <div class="progressbar">
+        <div class="progress" id="progress"></div>
+        
+        <div
+          class="progress-step progress-step-active"
+          data-title=""
+        ></div>
+        <div class="progress-step" data-title=""></div>
+        <div class="progress-step" data-title=""></div>
+        <!-- <div class="progress-step" data-title=""></div> -->
+      </div>
 
-    <div class="form-des">
-        <h3>Apply for TrobulTurtlez Whitelist</h3>
-        <p>We would hand-select the applicants that fulfil all criterias and give them access to mint the TrobulTurtlez nft collection. Follow @TrobulTurtlez to see all accepted applicants</p>
-    </div>
+      <!-- Steps -->
+      <div class="form-step form-step-active">
+        <div class="input-group">
+          <label for="Email">Email <Address></Address></label>
+          <input type="email" name="email" id="Emailaddress" />
+        </div>
+        <div class="input-group">
+          <label for="wallet">APTOS Wallet Address</label>
+          <input type="text" name="wallet" id="wallet" />
+        </div>
+        <div class="">
+          <a href="#" class="btn btn-next width-50 ml-auto">Next</a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="input-group">
+          <label for="twitter">Twitter Username</label>
+          <input type="text" name="twitter" id="twitter" />
+        </div>
+        <div class="input-group">
+          <label for="Discord">Discord id</label>
+          <input type="text" name="Discord" id="Discord" />
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+      <!-- <div class="form-step">
+        <div class="input-group">
+          <label for="dob">Date of Birth</label>
+          <input type="date" name="dob" id="dob" />
+        </div>
+        <div class="input-group">
+          <label for="ID">National ID</label>
+          <input type="number" name="ID" id="ID" />
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div> -->
+      <div class="form-step">
+        <div class="input-group">
+          <label for="password">Why Should We Choose You</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <!-- <div class="input-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input
+            type="password"
+            name="confirmPassword"
+            id="confirmPassword"
+          />
+        </div> -->
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <input type="submit" value="Submit" class="btn" />
+        </div>
+      </div>
+    </form>
+    <p>*This button redirects you to twitter to tweet your application post</p>
+    <p>**All Applicants Twitter page would be checked to confirm the application tweet</p>
+    <p>***Tag at least 3 Friends under your application tweet to speed up your acceptance</p>
 
-    <div class="form">
-        <form action="">
-            <div>
-                <h3>Email Address:</h3>
-                <input type="email" required>
-            </div>
-            <div>
-                <h3>APTOS Wallet Address:</h3>
-                <input type="text" required>
-            </div>
-            <div>
-                <h3>Twitter Username:</h3>
-                <input type="text" required>
-            </div>
-            <div>
-                <h3>Discord Id:</h3>
-                <input type="text" required>
-            </div>
-            <div>
-                <h3>Why Should We Choose You?:</h3>
-                <textarea name="" id="" part="" maxlength="200"  placeholder=" Give detialed explanations of your reason(s) here "  required></textarea>
-            </div>
-          
-            <div>
-                <input type="submit"  class="submit" value="submit">
-            </div>
-        </form>
-    </div>
-
-    <div class="instructions">
-        <p>*This button redirects you to twitter to tweet your application post</p>
-        <p>**All Applicants Twitter page would be checked to confirm the application tweet</p>
-        <p>***Tag at least 3 Friends under your application tweet to speed up your acceptance</p>
-    </div>
     <div class="center">
         <img src="/images/ninja2.png" alt="">
     </div>
-</body>
+  </body>
 </html>
