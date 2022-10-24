@@ -30,7 +30,43 @@
     border: 1px solid #ccc;
     border-radius: 0.25rem;
   }
-  nav .menu-btn i{
+  nav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0 100px;
+    width: 100%;
+}
+nav .logo{
+    width: 20%;
+}
+nav  img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #021d03;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover,nav ul li a.active{
+    color: red;
+}
+nav .menu-btn i{
     color: gold;
     font-size: 22px;
     cursor: pointer;
@@ -247,22 +283,20 @@ audio{
     }
     form h4{ 
         margin-bottom: 10px;
-    }
-    /* form p{
-        width: 80%;
-    } */
-    /* form div input{
-        width: 80%;
-    } */
-    /* form div .submit{
-        width: 50%;
-    } */
-    #click:checked ~  .menu-btn i:before{
+    }#click:checked ~  .menu-btn i:before{
         content: "\f00d";
         
     }
-    #click:checked ~ ul{
-        left: 0%;
+    nav .logo {
+        width: 70%;
+    }
+    nav  img{
+        width: 50%;
+        display: flex;
+        align-items: left;
+        position: absolute;
+        left: -10%;
+        top: 1%;
     }
     nav ul{
         position: fixed;
@@ -274,5 +308,17 @@ audio{
         display: block;
         text-align: center;
         transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    nav ul li{
+        margin: 40px 0;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    nav .menu-btn i{
+        display: block;
     }
 }
