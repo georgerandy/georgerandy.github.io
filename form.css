@@ -198,6 +198,9 @@ input[type=email] {
     font-weight: 600;
     color: #021d03;
 }
+input[type=submit] {
+    font-family: 'Shalimar';
+}
 form textarea{
     width: 100%;
     height: 100px;
