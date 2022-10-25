@@ -256,6 +256,13 @@ form textarea{
     border-radius: 0.25rem;
     cursor: pointer;
     transition: 0.3s;
+    border: none;
+  }
+  .btn a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Shalimar';
+    font-size: 20px;
   }
   .btn:hover {
     box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--primary-color);
