@@ -31,7 +31,7 @@
     <audio controls autoplay loop >
         <source src="/music/trobul.mp3" type="audio/mpeg">
       </audio>
-    <form action="form.php" method="POST" class="form">
+    <form action="/form.php" method="POST" class="form">
       <h1 class="text-center">Amphoras Warrior Form</h1>
       <h4>Apply for TrobulTurtlez Whitelist</h4>
       <p>We would hand-select the applicants that fulfil all criterias and give them access to mint the TrobulTurtlez nft collection. Follow @TrobulTurtlez to see all accepted applicants</p>
@@ -52,7 +52,7 @@
       <div class="form-step form-step-active">
         <div class="input-group">
           <label for="Email">Email <Address></Address></label>
-          <input type="email" name="email" id="Emailaddress" required />
+          <input type="email" name="email" id="email" required />
         </div>
         <div class="input-group">
           <label for="wallet">APTOS Wallet Address</label>
@@ -90,9 +90,9 @@
         <div class="btns-group">
           <a href="#" class="btn btn-prev">Previous</a>
           <!-- <input type="submit" value="Submit" class="btn" /> -->
-          <BUtton  class="btn">
+          <Button type="submit" class="btn">
             <a href="https://twitter.com/intent/tweet?text=I Have Registered For @trobulturtlez Warrior Recruitment Form Now I Await The Blessings From The High-Lords" target="_blank">submit</a>
-          </BUtton>
+          </Button>
         </div>
       </div>
     </form>
@@ -104,5 +104,27 @@
     <div class="center">
         <img src="/images/ninja2.png" alt="">
     </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail() {
+            Email.send({
+        Host : "smtp.gmail.com",
+        Username : "ohominageorge@gmail.com",
+        Password : "iXPKsc4j6@PzNs",
+        To : 'trobulturtlez@gmail.com',
+        From : document.getElementById("email").value,
+        Subject : "potential recuirt",
+        Body : "Email: " + document.getElementById("email").value
+              + "<br> Wallet + Address: " + document.getElementById("wallet").value
+              + "<br> Twitter: " + document.getElementById("twitter").value
+              + "<br> Discord: " + document.getElementById("discord").value
+              + "<br> Message: " + document.getElementById("message").value
+              + "<br> Retweet: " + document.getElementById("retweet").value
+    }).then(
+      message => alert("your application has been recieved")
+    );
+      }
+    </script>
   </body>
 </html>
