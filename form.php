@@ -4,7 +4,7 @@
         $email = $_POST['email'];
         $wallet = $_POST['wallet'];
         $twitter = $_POST['twitter']; 
-        $discord = $_POST['discord'];
+        $discordd = $_POST['discordd'];
         $message = $_POST['message'];
         $retweet = $_POST['retweet'];
 
@@ -12,7 +12,7 @@
         $mailheader = "From: ".$email;
         $txt = "You have received an e-mail from ".$email.".\n\n".$message;
 
-        mail($recipient, $email, $wallet, $twitter, $discord, $message, $retweet, $mailheader);
+        mail($recipient, $wallet, $twitter, $discord, $mailheader);
         header("Location: form.html?mailsent");
     }
 
