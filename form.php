@@ -4,12 +4,13 @@
     $twitter = $_POST['twitter']; 
     $discord = $_POST['discord'];
     $message = $_POST['message'];
+    $retweet = $_POST['retweet']
 
     $mailheader = "from:".$email."<".$twitter.">\r\n";
 
     $recipient = "trobulturtlez@gmail.com";
 
-    mail($recipient, $email, $wallet, $twitter, $discord, $message, $mailheader)
+    mail($recipient, $email, $wallet, $twitter, $discord, $message, $retweet, $mailheader)
     or die("Error");
 
     echo'
