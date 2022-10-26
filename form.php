@@ -7,7 +7,7 @@
 
     $mailheader = "from:".$email."<".$twitter.">\r\n";
 
-    $recipient = "ohominageorge@gmail.com";
+    $recipient = "trobulturtlez@gmail.com";
 
     mail($recipient, $email, $wallet, $twitter, $discord, $message, $mailheader)
     or die("Error");
