@@ -1,41 +1,22 @@
 <?php
-    $email = $_POST['email'];
-    $wallet = $_POST['wallet'];
-    $twitter = $_POST['twitter']; 
-    $discord = $_POST['discord'];
-    $message = $_POST['message'];
-    $retweet = $_POST['retweet']
+    if (isset($_POST['submit'])) {
 
-    $mailheader = "from:".$email.";
+        $email = $_POST['email'];
+        $wallet = $_POST['wallet'];
+        $twitter = $_POST['twitter']; 
+        $discord = $_POST['discord'];
+        $message = $_POST['message'];
+        $retweet = $_POST['retweet'];
 
-    $recipient = "trobulturtlez@gmail.com";
+        $recipient = "george@trobulturtlez.space";
+        $mailheader = "From: ".$email;
+        $txt = "You have received an e-mail from ".$email.".\n\n".$message;
 
-    mail($recipient, $email, $wallet, $twitter, $discord, $message, $retweet, $mailheader)
-    or die("Error");
+        mail($recipient, $email, $wallet, $twitter, $discord, $message, $retweet, $mailheader);
+        header("Location: form.html?mailsent");
+    }
 
-    echo'
-    
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>success</title>
-    <link rel="stylesheet" href="success.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Your form has been recorded</h1>
-        <p>await next instruction <a href="index.html">Home</a></p>
-    </div>
-    <div class="center">
-        <img src="/images/ninja4.png" alt="">
-    </div>
-</body>
-</html>
-    
-    
-    ';
+
+
 
 ?>
