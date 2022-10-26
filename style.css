@@ -190,7 +190,9 @@ video {
     justify-content: center;
     text-align: center;
 }
-
+.about p{
+    word-spacing: 3px ;
+}
 @media (max-width: 940px) {
     /* nav{
         position: sticky;
