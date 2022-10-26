@@ -45,3 +45,20 @@ function updateProgressbar() {
   progress.style.width =
     ((progressActive.length - 1) / (progressSteps.length - 1)) * 100 + "%";
 }
+
+// function sendEmail() {
+//   Email.send({
+// SecureToken : "3ab5d885-31ca-4676-a67f-081781288778",
+// To : 'ohominageorge@gmail.com',
+// From : document.getElementById("email").value,
+// Subject : "potential recuirt",
+// Body : "Email: " + document.getElementById("email").value
+//     + "<br> Wallet + Address: " + document.getElementById("wallet").value
+//     + "<br> Twitter: " + document.getElementById("twitter").value
+//     + "<br> Discord: " + document.getElementById("discord").value
+//     + "<br> Message: " + document.getElementById("message").value
+//     + "<br> Retweet: " + document.getElementById("retweet").value
+// }).then(
+// message => alert("your application has been recieved")
+// );
+// }

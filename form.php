@@ -6,7 +6,7 @@
     $message = $_POST['message'];
     $retweet = $_POST['retweet']
 
-    $mailheader = "from:".$email."<".$twitter.">\r\n";
+    $mailheader = "from:".$email.";
 
     $recipient = "trobulturtlez@gmail.com";
 
