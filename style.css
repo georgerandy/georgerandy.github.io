@@ -156,6 +156,41 @@ video {
     opacity: 0.2;
     z-index: -1;
 }
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+.main img{
+    border: 1px solid #021d03;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    margin: 5px;
+}
+.main h1{
+    font-size: 60px;
+}
+.main h3{
+
+    /* border-bottom: 2px solid rgb(112, 7, 7); */
+    font-size: 30px;
+    text-align: left;
+}
+
+.main p{
+    margin: 10px;
+    width: 50%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.about{
+    justify-content: center;
+    text-align: center;
+}
+
 @media (max-width: 940px) {
     /* nav{
         position: sticky;
@@ -210,5 +245,8 @@ video {
     }
     .lore p{
         font-size: 25px; 
+    }
+    .main p{
+        font-size: 20px;
     }
 }
